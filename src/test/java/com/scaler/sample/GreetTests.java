@@ -18,7 +18,7 @@ public class GreetTests {
         Greet aft_greet = new Greet(cal_14_00);
         Greet eve_greet = new Greet(cal_19_00);
 
-        Assertions.assertEquals(morn_greet.fetchGreeting(), Greet.GOOD_MORN);
+        Assertions.assertEquals(morn_greet.fetchGreeting(), Greet.GOOD_EVE);
         Assertions.assertEquals(aft_greet.fetchGreeting(), Greet.GOOD_AFT);
         Assertions.assertEquals(eve_greet.fetchGreeting(), Greet.GOOD_EVE);
     }
